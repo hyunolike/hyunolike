@@ -2,7 +2,7 @@
 
 `2019` 시작
 
-[! [hyunolike의 github 통계] (https://github-readme-stats.vercel.app/api ? username = hyunolike )] (https://github.com/anuraghazra/github-readme-stats)
+<img align="left" alt="[hyunolike의 github 통계]" src=""https://github-readme-stats.vercel.app/api ? username = hyunolike & show_icon=true & hide_border=true" />
 
 
 
