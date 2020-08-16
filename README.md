@@ -9,6 +9,7 @@
 - 🌱 I’m currently learning everything 🤣
 - 🙃 __Fun fact__ : Chemistry major🧪
 <br/>
+
 ### Check my additional info here!
 
 <div align="left">
