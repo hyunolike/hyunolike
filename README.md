@@ -10,6 +10,7 @@
 - 🙃 __Fun fact__ : Chemistry major🧪
 <br/>
 ### Check my additional info here!
+
 <div align="left">
     <a target="_blank" href="https://github.com/hyunolike"><img src="https://postfiles.pstatic.net/MjAxOTEyMjRfMjA2/MDAxNTc3MTkyNjQxMTE2.gKbaF34cMk4H7gGeNL6OO6ARFXgrxra1iSvn3DRFzAMg.TWVLm42SKE4yDn_eMTaU9BGEnU2YSbEV0pf8bHM0UjEg.PNG.occidere/GitHub-Mark-120px-plus.png?type=w773" width="34"></a>
     <a target="_blank" href="https://gitlab.com/hyunolike"><img src="https://res.cloudinary.com/dgggcrkxq/image/upload/v1566913837/noticon/xbgvzmnv8flg8wcbtr3w.png" width="34"></a>
