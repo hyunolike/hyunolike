@@ -2,6 +2,7 @@
 
 
 `2019` 시작
+`2020.07~08` 인턴(안드로이드앱 개발)
 <br /> 
 
 - 🌱 I’m currently learning everything 🤣
