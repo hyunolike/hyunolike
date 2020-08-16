@@ -1,18 +1,26 @@
 ### Dev Hyunho(판교😊)
 
+
 `2019` 시작
+<br /> 
+
+- 🌱 I’m currently learning everything 🤣
+- 🙃 __Fun fact__ : Chemistry major🧪
 <br/>
-<detail>
-    <img align="left" alt="codeSTACKr's Github Stats" src="https://github-readme-stats.vercel.app/api?username=hyunolike&show_icons=true&hide_border=true&theme = ayu-mirage" />
-</detil>
 
+<img align="left" src="https://github-readme-stats.vercel.app/api?username=hyunolike&show_icons=true&include_all_commits=true&theme=ayu-mirage" alt="hyunho's github stats" />
+<br/>
 
+<br/>
+<br/>
 
 `👇 Click My Repos`
 
 
+
 <!--
 **hyunolike/hyunolike** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hyunolike&layout=compact&theme=radical" />
 
 Here are some ideas to get you started:
 
