@@ -21,7 +21,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/anuraghazra-master/anuraghazra-master" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/occidere-master/occidere-master" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -31,7 +31,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597552435355</updated>
-      <workItem from="1597552436464" duration="1727000" />
+      <workItem from="1597552436464" duration="1894000" />
+      <workItem from="1597558699909" duration="456000" />
     </task>
     <servers />
   </component>
@@ -39,9 +40,9 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="548" y="171" key="FileChooserDialogImpl" timestamp="1597553797976">
+    <state x="548" y="171" key="FileChooserDialogImpl" timestamp="1597558948309">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="548" y="171" key="FileChooserDialogImpl/0.0.1536.834/-1920.0.1280.689@0.0.1536.834" timestamp="1597553797976" />
+    <state x="548" y="171" key="FileChooserDialogImpl/0.0.1536.834/-1920.0.1280.689@0.0.1536.834" timestamp="1597558948309" />
   </component>
 </project>
