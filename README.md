@@ -2,6 +2,8 @@
 
 
 `2019` 시작
+<br />
+`2020.07~08` 하계 인턴십(안드로이드앱 개발)
 <br /> 
 
 - 🌱 I’m currently learning everything 🤣
@@ -21,13 +23,14 @@
 <br/>
 <br/>
 
-`👇 Click My Repos`
+
 
 
 
 <!--
 **hyunolike/hyunolike** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hyunolike&layout=compact&theme=radical" />
+`👇 Click My Repos`
 
 Here are some ideas to get you started:
 
