@@ -1,9 +1,12 @@
 ### Dev Hyunho(판교😊)
 
 `2019` 시작
+<br/>
+<detail>
+    <img align="left" alt="codeSTACKr's Github Stats" src="https://github-readme-stats.vercel.app/api?username=hyunolike&show_icons=true&hide_border=true&theme = ayu-mirage" />
+</detil>
 
-<img align="left" alt="codeSTACKr's Github Stats" src="https://github-readme-stats.vercel.app/api?username=hyunolike&show_icons=true&hide_border=true" />
-<br />
+
 
 `👇 Click My Repos`
 
