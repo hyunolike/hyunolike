@@ -20,11 +20,9 @@
 <br/>
 
 <img align="left" src="https://github-readme-stats.vercel.app/api?username=hyunolike&show_icons=true&include_all_commits=true&theme=ayu-mirage" alt="hyunho's github stats" />
+<img align="right" alt="GIF" src="https://66.media.tumblr.com/aa5907bb108e1ff1dcebdc3fb3bd78db/6e3ea4fafb8eedc9-98/s1280x1920/553f7c0eca815f5e20e57dbea12031191e6eb669.jpg"  height="250" />
+<p align="right">해방촌🌆</p>
 
-<div align="right">
-<p>해방촌🌆</p>
-<img alt="GIF" src="https://66.media.tumblr.com/aa5907bb108e1ff1dcebdc3fb3bd78db/6e3ea4fafb8eedc9-98/s1280x1920/553f7c0eca815f5e20e57dbea12031191e6eb669.jpg"  height="300" />
-</div>
 
 
 
