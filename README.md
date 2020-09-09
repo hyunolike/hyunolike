@@ -17,7 +17,7 @@
 </div>
 </div>
 <div class="img">
-    <img src="images/200x200.png" alt="My Image">
+    <img src="Img/hebang.jpg" alt="My Image">
 </div>
 
 <br/>
