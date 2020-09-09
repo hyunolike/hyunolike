@@ -1,6 +1,6 @@
 ### Dev Hyunho(판교😊)
 
-
+<div class="main">
 `2019` 시작
 <br />
 `2020.07~08` 하계 인턴십(안드로이드앱 개발)
@@ -14,6 +14,10 @@
 <div align="left">
     <a target="_blank" href="https://github.com/hyunolike"><img src="https://postfiles.pstatic.net/MjAxOTEyMjRfMjA2/MDAxNTc3MTkyNjQxMTE2.gKbaF34cMk4H7gGeNL6OO6ARFXgrxra1iSvn3DRFzAMg.TWVLm42SKE4yDn_eMTaU9BGEnU2YSbEV0pf8bHM0UjEg.PNG.occidere/GitHub-Mark-120px-plus.png?type=w773" width="34"></a>
     <a target="_blank" href="https://gitlab.com/hyunolike"><img src="https://res.cloudinary.com/dgggcrkxq/image/upload/v1566913837/noticon/xbgvzmnv8flg8wcbtr3w.png" width="34"></a>
+</div>
+</div>
+<div class="img">
+    <img src="images/200x200.png" alt="My Image">
 </div>
 
 <br/>
