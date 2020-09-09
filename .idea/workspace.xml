@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65baa45b-7236-498d-8570-01c84ecb037b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +39,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/abhisheknaiidu-master/abhisheknaiidu-master" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -56,7 +57,7 @@
       <updated>1597552435355</updated>
       <workItem from="1597552436464" duration="1894000" />
       <workItem from="1597558699909" duration="1135000" />
-      <workItem from="1599658542393" duration="2158000" />
+      <workItem from="1599658542393" duration="2543000" />
     </task>
     <servers />
   </component>
@@ -75,9 +76,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="548" y="171" key="FileChooserDialogImpl" timestamp="1597558948309">
+    <state x="548" y="171" key="FileChooserDialogImpl" timestamp="1599660910554">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="548" y="171" key="FileChooserDialogImpl/0.0.1536.834/-1920.0.1280.689@0.0.1536.834" timestamp="1597558948309" />
+    <state x="548" y="171" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1599660910554" />
   </component>
 </project>
