@@ -4,7 +4,11 @@
 <br />
 `2020.07~08` 하계 인턴십(안드로이드앱 개발)
 <br /> 
-<img  align = "right" alt="GIF" src="https://66.media.tumblr.com/aa5907bb108e1ff1dcebdc3fb3bd78db/6e3ea4fafb8eedc9-98/s1280x1920/553f7c0eca815f5e20e57dbea12031191e6eb669.jpg"  height="300" />
+<div align="right">
+<p>해방촌🌆</p>
+<img alt="GIF" src="https://66.media.tumblr.com/aa5907bb108e1ff1dcebdc3fb3bd78db/6e3ea4fafb8eedc9-98/s1280x1920/553f7c0eca815f5e20e57dbea12031191e6eb669.jpg"  height="300" />
+</div>
+
 
 - 🌱 I’m currently learning everything 🤣
 - 🙃 __Fun fact__ : Chemistry major🧪
