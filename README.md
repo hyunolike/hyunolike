@@ -1,4 +1,5 @@
-### Dev Hyunho(판교😊)
+<h3>Dev Hyunho(판교😊)</h3>
+<img align='right' src="https://i.pinimg.com/564x/c1/4e/e4/c14ee442e33a05bd33286a8e56727e05.jpg" width="230">
 
 `2019` 시작
 <br />
@@ -8,18 +9,12 @@
 - 🌱 I’m currently learning everything 🤣
 - 🙃 __Fun fact__ : Chemistry major🧪
 
-<img align="right" alt="GIF" src="https://66.media.tumblr.com/aa5907bb108e1ff1dcebdc3fb3bd78db/6e3ea4fafb8eedc9-98/s1280x1920/553f7c0eca815f5e20e57dbea12031191e6eb669.jpg"  height="250" />
-<br/>
-<p align="right">해방촌🌆</p>
-
 ### Check my additional info here!
 
 <div align="left">
     <a target="_blank" href="https://github.com/hyunolike"><img src="https://postfiles.pstatic.net/MjAxOTEyMjRfMjA2/MDAxNTc3MTkyNjQxMTE2.gKbaF34cMk4H7gGeNL6OO6ARFXgrxra1iSvn3DRFzAMg.TWVLm42SKE4yDn_eMTaU9BGEnU2YSbEV0pf8bHM0UjEg.PNG.occidere/GitHub-Mark-120px-plus.png?type=w773" width="34"></a>
     <a target="_blank" href="https://gitlab.com/hyunolike"><img src="https://res.cloudinary.com/dgggcrkxq/image/upload/v1566913837/noticon/xbgvzmnv8flg8wcbtr3w.png" width="34"></a>
 </div>
-
-
 
 <br/>
 
