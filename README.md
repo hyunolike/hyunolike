@@ -2,9 +2,9 @@
 <img align='right' src="https://i.pinimg.com/564x/c1/4e/e4/c14ee442e33a05bd33286a8e56727e05.jpg" width="230">
 
 
-`2019` 시작
+`2019` start
 <br />
-`2020.07~08` 하계 인턴십(안드로이드앱 개발)
+`2020.07~08` Intern(Android)
 <br /> 
 
 - 🌱 I’m currently learning everything 🤣
