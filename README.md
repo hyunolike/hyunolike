@@ -13,7 +13,7 @@
 ### Check my additional info here!
 
 <div align="left">
-    <a target="_blank" href="https://hyunolike.github.io/"><img src="https://e7.pngegg.com/pngimages/886/626/png-clipart-github-android-google-play-githuboctocatlogo-logo-fictional-character.png" width="34"></a>
+    <a target="_blank" href="https://hyunolike.github.io/"><img src="https://postfiles.pstatic.net/MjAxOTEyMjRfMjA2/MDAxNTc3MTkyNjQxMTE2.gKbaF34cMk4H7gGeNL6OO6ARFXgrxra1iSvn3DRFzAMg.TWVLm42SKE4yDn_eMTaU9BGEnU2YSbEV0pf8bHM0UjEg.PNG.occidere/GitHub-Mark-120px-plus.png?type=w773" width="34"></a>
     <a target="_blank" href="https://gitlab.com/hyunolike"><img src="https://res.cloudinary.com/dgggcrkxq/image/upload/v1566913837/noticon/xbgvzmnv8flg8wcbtr3w.png" width="34"></a>
     <a target="_blank" href="#"><img src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1567831878/noticon/r5j96kjgofenqdearmdw.png" width="34"></a>
 </div>
