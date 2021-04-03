@@ -4,9 +4,8 @@
 
 `2019` start
 <br />
-`2020.07~08` Intern(Android)
+`2021.03 ~` it`s the best thing since sliced bread!  
 <br /> 
-
 - 🌱 I’m currently learning everything 🤣
 - 🙃 __Fun fact__ : Chemistry major🧪
 
