@@ -1,4 +1,4 @@
-<h3>Dev Hyunho(😊) <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fhyunolike%2Fhyunolike&count_bg=%2300C13A&title_bg=%23252525&icon=github.svg&icon_color=%23E7E7E7&title=hits&edge_flat=true"/></a> [![Netlify Status](https://api.netlify.com/api/v1/badges/9a0b2109-4524-4780-8b20-3bd9a24c3bdb/deploy-status)](https://app.netlify.com/sites/hyunolike/deploys)</h3>
+<h3>Dev Hyunho(😊) <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fhyunolike%2Fhyunolike&count_bg=%2300C13A&title_bg=%23252525&icon=github.svg&icon_color=%23E7E7E7&title=hits&edge_flat=true"/></a></h3>
 <img align='right' src="https://i.pinimg.com/564x/c1/4e/e4/c14ee442e33a05bd33286a8e56727e05.jpg" width="230">
 
 
@@ -9,7 +9,8 @@
 - 🌱 I’m currently learning everything 🤣
 - 🙃 __Fun fact__ : Chemistry major🧪
 
-### Check my additional info here!
+### Check my additional info here! 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9a0b2109-4524-4780-8b20-3bd9a24c3bdb/deploy-status)](https://app.netlify.com/sites/hyunolike/deploys)
 
 <div align="left">
     <a target="_blank" href="https://hyunolike.github.io/"><img src="https://postfiles.pstatic.net/MjAxOTEyMjRfMjA2/MDAxNTc3MTkyNjQxMTE2.gKbaF34cMk4H7gGeNL6OO6ARFXgrxra1iSvn3DRFzAMg.TWVLm42SKE4yDn_eMTaU9BGEnU2YSbEV0pf8bHM0UjEg.PNG.occidere/GitHub-Mark-120px-plus.png?type=w773" width="34"></a>
