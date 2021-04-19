@@ -11,7 +11,7 @@
 
 ### Check my additional info here! 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9a0b2109-4524-4780-8b20-3bd9a24c3bdb/deploy-status)](https://app.netlify.com/sites/hyunolike/deploys)
-
+[현호 페이지 :)](https://hyunolike.netlify.app/)
 <div align="left">
     <a target="_blank" href="https://hyunolike.github.io/"><img src="https://postfiles.pstatic.net/MjAxOTEyMjRfMjA2/MDAxNTc3MTkyNjQxMTE2.gKbaF34cMk4H7gGeNL6OO6ARFXgrxra1iSvn3DRFzAMg.TWVLm42SKE4yDn_eMTaU9BGEnU2YSbEV0pf8bHM0UjEg.PNG.occidere/GitHub-Mark-120px-plus.png?type=w773" width="34"></a>
     <a target="_blank" href="https://gitlab.com/hyunolike"><img src="https://res.cloudinary.com/dgggcrkxq/image/upload/v1566913837/noticon/xbgvzmnv8flg8wcbtr3w.png" width="34"></a>
