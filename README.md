@@ -1,4 +1,4 @@
-<h3>Dev Hyunho(😊) <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fhyunolike%2Fhyunolike&count_bg=%2300C13A&title_bg=%23252525&icon=github.svg&icon_color=%23E7E7E7&title=hits&edge_flat=true"/></a></h3>
+<h3>Dev Hyunho <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fhyunolike%2Fhyunolike&count_bg=%2300C13A&title_bg=%23252525&icon=github.svg&icon_color=%23E7E7E7&title=hits&edge_flat=true"/></a></h3>
 <img align="right" src="https://github-readme-stats.vercel.app/api?username=hyunolike&show_icons=true&include_all_commits=true&theme=ayu-mirage" alt="hyunho's github stats" />
 
 
