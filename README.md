@@ -2,7 +2,7 @@
 <img align='right' src="https://i.pinimg.com/564x/c1/4e/e4/c14ee442e33a05bd33286a8e56727e05.jpg" width="230">
 
 
-`2019` start <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
+`2019` start <img align="left" src="https://github-readme-stats.vercel.app/api?username=hyunolike&show_icons=true&include_all_commits=true&theme=ayu-mirage" alt="hyunho's github stats" />
 <br />
 `2021.03 ~` it`s the best thing since sliced bread!  
 <br /> 
@@ -20,7 +20,7 @@
 
 <br/>
 
-<img align="left" src="https://github-readme-stats.vercel.app/api?username=hyunolike&show_icons=true&include_all_commits=true&theme=ayu-mirage" alt="hyunho's github stats" />
+
 
 
 
@@ -33,7 +33,7 @@
 **hyunolike/hyunolike** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hyunolike&layout=compact&theme=radical" />
 `👇 Click My Repos`
-
+<img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ...
