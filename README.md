@@ -2,9 +2,9 @@
 <img align="right" src="https://github-readme-stats.vercel.app/api?username=hyunolike&show_icons=true&include_all_commits=true&theme=ayu-mirage" alt="hyunho's github stats" />
 
 
-`2019` start 
+`2019` <samp> start </samp> 
 <br />
-`2021.03 ~` it`s the best thing since sliced bread!  
+`2021.03 ~` <samp> it`s the best thing since sliced bread!  </samp>
 <br /> 
 - 🌱 I’m currently learning everything 🤣
 - 🙃 __Fun fact__ : Chemistry major🧪
