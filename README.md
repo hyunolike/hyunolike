@@ -9,9 +9,11 @@
 - 🌱 I’m currently learning everything 🤣
 - 🙃 __Fun fact__ : Chemistry major🧪
 
-<div align="left">
+<div align="center">
     <a target="_blank" href="https://hyunolike.github.io/"><img src="https://postfiles.pstatic.net/MjAxOTEyMjRfMjA2/MDAxNTc3MTkyNjQxMTE2.gKbaF34cMk4H7gGeNL6OO6ARFXgrxra1iSvn3DRFzAMg.TWVLm42SKE4yDn_eMTaU9BGEnU2YSbEV0pf8bHM0UjEg.PNG.occidere/GitHub-Mark-120px-plus.png?type=w773" width="34"></a>
-   
+ 
+<br>
+<br>
 <div align="center">
     <img src="/img/github.png" alt="테스트"/>
 </div>
