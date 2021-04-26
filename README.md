@@ -4,14 +4,14 @@
 <br>
 <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> Hello My name is **Hyunho Jang**
 <br>
-<img align="right" src="https://github-readme-stats.vercel.app/api?username=hyunolike&show_icons=true&include_all_commits=true&theme=ayu-mirage" alt="hyunho's github stats" />
 
 - 🌱 I’m currently learning everything 🤣
 - 🙃 __Fun fact__ : Chemistry major🧪
 
-<div align="center">
-    <a target="_blank" href="https://hyunolike.github.io/"><img src="https://postfiles.pstatic.net/MjAxOTEyMjRfMjA2/MDAxNTc3MTkyNjQxMTE2.gKbaF34cMk4H7gGeNL6OO6ARFXgrxra1iSvn3DRFzAMg.TWVLm42SKE4yDn_eMTaU9BGEnU2YSbEV0pf8bHM0UjEg.PNG.occidere/GitHub-Mark-120px-plus.png?type=w773" width="34"></a>
-</div>
+<br>
+
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=hyunolike&show_icons=true&include_all_commits=true&theme=ayu-mirage" alt="hyunho's github stats" />
+
 <br>
 <br>
 <div align="center">
