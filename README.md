@@ -18,17 +18,6 @@
     <img src="/img/github.png" alt="테스트"/>
 </div>
 
-### :mailbox_with_mail: Contacts
-[![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:fallear1@gmail.com)](mailto:fallear1@gmail.com)
-[![Tech Blog Badge](http://img.shields.io/badge/-Tech%20blog-black?style=flat-square&logo=github&link=https://davinci-ai.tistory.com/)](#)
-
-
-
-
-
-
-
-
 
 <!--
 
