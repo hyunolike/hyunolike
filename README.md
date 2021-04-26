@@ -1,13 +1,9 @@
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fhyunolike%2Fhyunolike&count_bg=%2300C13A&title_bg=%23252525&icon=github.svg&icon_color=%23E7E7E7&title=hits&edge_flat=true"/></a>
-![Hits](https://img.shields.io/github/followers/harimkang?label=Follow)
 <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> Hello My name is **Hyunho Jang**
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fhyunolike%2Fhyunolike&count_bg=%2300C13A&title_bg=%23252525&icon=github.svg&icon_color=%23E7E7E7&title=hits&edge_flat=true"/></a>
+![Hits](https://img.shields.io/github/followers/hyunolike?label=Follow)
+<br>
 <img align="right" src="https://github-readme-stats.vercel.app/api?username=hyunolike&show_icons=true&include_all_commits=true&theme=ayu-mirage" alt="hyunho's github stats" />
 
-
-`2019` <samp> start </samp> 
-<br />
-`2021.03 ~` <samp> it`s the best thing since sliced bread!  </samp>
-<br /> 
 - 🌱 I’m currently learning everything 🤣
 - 🙃 __Fun fact__ : Chemistry major🧪
 
@@ -24,7 +20,9 @@
     <img src="/img/github.png" alt="테스트"/>
 </div>
 
-
+### :mailbox_with_mail: Contacts
+[![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:fallear1@gmail.com)](mailto:fallear1@gmail.com)
+[![Tech Blog Badge](http://img.shields.io/badge/-Tech%20blog-black?style=flat-square&logo=github&link=https://davinci-ai.tistory.com/)](#)
 
 
 
