@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65baa45b-7236-498d-8570-01c84ecb037b" name="Default Changelist" comment="Fix readme.md">
+    <list default="true" id="65baa45b-7236-498d-8570-01c84ecb037b" name="Default Changelist" comment="Add test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -66,7 +66,7 @@
       <workItem from="1619058410433" duration="29000" />
       <workItem from="1619414955675" duration="1504000" />
       <workItem from="1619417014921" duration="66000" />
-      <workItem from="1619417696612" duration="353000" />
+      <workItem from="1619417696612" duration="756000" />
     </task>
     <task id="LOCAL-00001" summary="Add test img">
       <created>1618994749007</created>
@@ -96,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619416456402</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add test">
+      <created>1619418068334</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619418068334</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +125,7 @@
     <MESSAGE value="Update : hits 추가" />
     <MESSAGE value="Add test img" />
     <MESSAGE value="Fix readme.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix readme.md" />
+    <MESSAGE value="Add test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add test" />
   </component>
 </project>
