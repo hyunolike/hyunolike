@@ -1,5 +1,5 @@
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fhyunolike%2Fhyunolike&count_bg=%2300C13A&title_bg=%23252525&icon=github.svg&icon_color=%23E7E7E7&title=hits&edge_flat=true"/></a>
-![Hits](https://img.shields.io/github/followers/hyunolike?label=Follow)
+![Hits](https://img.shields.io/github/followers/hyunolike?label=Follow?style=flat-square&logo=appveyor)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9a0b2109-4524-4780-8b20-3bd9a24c3bdb/deploy-status)](https://app.netlify.com/sites/hyunolike/deploys)
 <br>
 <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> Hello My name is **Hyunho Jang**
