@@ -9,5 +9,7 @@
 
 ![hyunho's github stats](https://github-readme-stats.vercel.app/api?username=hyunolike&show_icons=true&theme=dark)
 
-[![Daily DevBlog](https://img.shields.io/badge/website-%23.svg?&style=flat-square&&logo=www&logoColor=white&&link=http://daily-devblog.com)](#)
-[![Tech Blog Badge](http://img.shields.io/badge/-Tech%20blog-black?style=flat-square&logo=github&link=https://taetaetae.github.io/)](https://hyunolike.github.io/) 
+[![Tech Blog Badge](http://img.shields.io/badge/-Tech%20blog-black?style=flat-square&logo=github&link=https://taetaetae.github.io/)](https://hyunolike.github.io/)
+[![](https://img.shields.io/badge/Daily_Study-0A66C2?style=flat-square&logo=spring&logoColor=green)](https://github.com/hyunolike/practice-in-java)
+
+
