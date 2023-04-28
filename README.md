@@ -25,10 +25,10 @@ I am Hyunho Jang (he/him)    </h2>
 
 <br />
 
-<div align = "center">
-  <img src="https://github-readme-stats.vercel.app/api?username=hyunolike&show_icons=true&locale=kr&hide_border=true&bg_color=151515&text_color=FEFEFE"></img>
-  <img src="https://streak-stats.demolab.com/?user=hyunolike&theme=dark&hide_border=true&locale=ko&mode=weekly"></img>
-</div>
+
+<img src="https://github-readme-stats.vercel.app/api?username=hyunolike&show_icons=true&locale=kr&hide_border=true&bg_color=151515&text_color=FEFEFE"></img>
+<img src="https://streak-stats.demolab.com/?user=hyunolike&theme=dark&hide_border=true&locale=ko&mode=weekly"></img>
+
 
 <p align="center">
 <picture>
