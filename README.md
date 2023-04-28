@@ -24,6 +24,7 @@ I am Hyunho Jang (he/him)    </h2>
 - ⚡ Fun fact I also love to hear songs during coding.
 
 <br />
+<br />
 
 <p align="center"> 
 <img src="https://github-readme-stats.vercel.app/api?username=hyunolike&show_icons=true&locale=kr&hide_border=true&bg_color=151515&text_color=FEFEFE" width="40%"></img>
