@@ -20,7 +20,7 @@ I am Hyunho Jang (he/him)    </h2>
 - 🧑🏻‍💻 I am interested in Backend Design and Development, Microservice architecture, RESTful APIs and Cloud Native technologies.
 - 🤓 Currently working on Full Stack Development!
 - 😄 I love exploring and learning new skills as well as implement those in my projects.
-- 📫 How to reach me: **fallear1@gmail.com**
+- 📫 How to reach me: **hyunho.jang.dev@gmail.com**
 - ⚡ Fun fact I also love to hear songs during coding.
 
 <br />
