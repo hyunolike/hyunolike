@@ -1,5 +1,5 @@
 <h2 align="center"> "Hello World"
-<img src="https://media4.giphy.com/media/RPukqDohL55Eo6Z38X/giphy.gif?cid=ecf05e47azgn9v1va67meuuf4d39nj3kwgp8uqwel58w2yn9&rid=giphy.gif&ct=s" width="40">
+<img src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1603852458/noticon/vq2qnfpgny4yepkcztc1.gif" width="40">
 
 I am Hyunho Jang (he/him)    </h2>
 
