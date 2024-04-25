@@ -32,11 +32,14 @@ I am Hyunho Jang (he/him)    </h2>
 </p>
 
 <p align="center">
-<picture>
+<a href="https://github.com/devxb/gitanimals">
+  <img src="https://render.gitanimals.org/farms/hyunolike"/>
+</a>
+<!-- <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
-</picture>
+</picture> -->
 </p>
 
 <!-- 2023/04/28일자 주석 처리 :: 첫 깃허브 프로필 입니다 :) -->
