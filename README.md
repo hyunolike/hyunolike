@@ -32,6 +32,8 @@ I am Hyunho Jang (he/him)    </h2>
 </p>
 
 <p align="center">
+<!-- 참고 URL
+https://github.com/devxb/gitanimals  -->
 <a href="https://github.com/devxb/gitanimals">
   <img src="https://render.gitanimals.org/farms/hyunolike"/>
 </a>
