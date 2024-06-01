@@ -16,7 +16,7 @@ I am Hyunho Jang (he/him)    </h2>
 <img align='right' src='https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1604312942/noticon/hilj9cdgj1ceedjexccc.gif' width="225" height="225">
 
 - 🔭 I’m currently working on my Web & Server development skills.
-- 🌱 I’m currently learning Next.js & .NET (Spring Boot) by building projects.
+- 🌱 I’m currently learning Next.js(TypeScript) & Spring Boot(Kotlin, Java) by building projects.
 - 🧑🏻‍💻 I am interested in Backend Design and Development, Microservice architecture, RESTful APIs and Cloud Native technologies.
 - 🤓 Currently working on Full Stack Development!
 - 😄 I love exploring and learning new skills as well as implement those in my projects.
