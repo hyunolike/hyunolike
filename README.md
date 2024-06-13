@@ -27,11 +27,10 @@ I am Hyunho Jang (he/him)    </h2>
 <br />
 
 <p align="center"> 
-<!-- 신규 정보 입력을 위해 기존 정보 주석 처리 24.06.13 -->
-<!-- <img src="https://github-readme-stats.vercel.app/api?username=hyunolike&show_icons=true&locale=kr&hide_border=true&bg_color=151515&text_color=FEFEFE" width="40%"></img>
-<img src="https://streak-stats.demolab.com/?user=hyunolike&theme=dark&hide_border=true&locale=ko&mode=weekly" width="42.25%"></img> -->
+<img src="https://github-readme-stats.vercel.app/api?username=hyunolike&show_icons=true&locale=kr&hide_border=true&bg_color=151515&text_color=FEFEFE" width="40%"></img>
+<img src="https://streak-stats.demolab.com/?user=hyunolike&theme=dark&hide_border=true&locale=ko&mode=weekly" width="42.25%"></img>
   
-[![Github](https://www.codenary.co.kr/widget/github/api?username=장현호)](https://www.codenary.co.kr/user-profile/detail/장현호?github_ride=true&utm_source=github)
+<!-- [![Github](https://www.codenary.co.kr/widget/github/api?username=장현호)](https://www.codenary.co.kr/user-profile/detail/장현호?github_ride=true&utm_source=github) -->
 </p>
 
 <p align="center">
