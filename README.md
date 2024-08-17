@@ -5,7 +5,7 @@
             <rp>(</rp><rt><sup><sub>Backend Engineer</sub></sup></rt><rp>)</rp>
         </ruby>
     </p>
-    <a href="https://wakatime.com/@0f1d9f2a-fec5-4d7d-853d-26a2723da169"><img align="right" src="https://wakatime.com/badge/user/13ce4aa7-192c-43e7-aac5-7ae1d7958633.svg" alt="Total time coded since August 17 2024" /></a>
+    <a href="https://wakatime.com/@hyunolike"><img align="right" src="https://wakatime.com/badge/user/13ce4aa7-192c-43e7-aac5-7ae1d7958633.svg" alt="Total time coded since August 17 2024" /></a>
   <a href="https://hits.seeyoufarm.com"><img align="right" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fhyunolike%2Fhyunolike&count_bg=%2300C13A&title_bg=%23252525&icon=github.svg&icon_color=%23E7E7E7&title=hits&edge_flat=true"/></a>
 </h1>
 
