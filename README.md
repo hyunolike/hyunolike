@@ -42,7 +42,23 @@
 <!-- 참고 URL
 https://github.com/devxb/gitanimals  -->
 <a href="https://github.com/hyunolike">
-  <img src="https://render.gitanimals.org/farms/hyunolike"/>
+<!--   <img src="https://render.gitanimals.org/farms/hyunolike"/> -->
+    
+  <img
+    src="https://render.gitanimals.org/lines/hyunolike?pet-id=653214022189186957"
+    width="30%"
+    height="100"
+  />
+  <img
+    src="https://render.gitanimals.org/lines/hyunolike?pet-id=631478175340776843"
+    width="30%"
+    height="100"
+  />
+  <img
+    src="https://render.gitanimals.org/lines/hyunolike?pet-id=654834080102862101"
+    width="30%"
+    height="100"
+  />
 </a>
 <!-- <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
