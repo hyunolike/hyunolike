@@ -24,6 +24,7 @@
 <!-- - 🌱 I’m currently learning Next.js(TypeScript) & Spring Boot(Kotlin, Java) by building projects. -->
 - 🌱 I’m currently learning Spring Boot(Kotlin, Java), AI(Python) by building projects.
 - 🧑🏻‍💻 I am interested in Backend Design and Development, Microservice architecture, Micro front-end architecture and Cloud Native technologies.
+- 💼 Currently working at a major KOSPI-listed corporation.
 - 🤓 Currently working on Full Stack Development!
 - 😄 I love exploring and learning new skills as well as implement those in my projects.
 - 📫 How to reach me: **hyunho.jang.dev@gmail.com**
