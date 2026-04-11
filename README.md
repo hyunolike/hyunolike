@@ -6,7 +6,7 @@
         </ruby>
     </p>
     <a href="https://wakatime.com/@hyunolike"><img align="right" src="https://wakatime.com/badge/user/13ce4aa7-192c-43e7-aac5-7ae1d7958633.svg" alt="Total time coded since August 17 2024" /></a>
-  <a href="https://hits.seeyoufarm.com"><img align="right" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fhyunolike%2Fhyunolike&count_bg=%2300C13A&title_bg=%23252525&icon=github.svg&icon_color=%23E7E7E7&title=hits&edge_flat=true"/></a>
+  <!-- <a href="https://hits.seeyoufarm.com"><img align="right" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fhyunolike%2Fhyunolike&count_bg=%2300C13A&title_bg=%23252525&icon=github.svg&icon_color=%23E7E7E7&title=hits&edge_flat=true"/></a> -->
 </h1>
 
 
@@ -14,7 +14,8 @@
   <img src= 'https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2.5'/>
 </p>
 
-
+<!-- <img src="https://github-stats-alpha.vercel.app/api?username=hyunolike&cc=000&tc=fff&ic=fff&bc=000" width="30%" height="100"/> -->
+<!-- <img src="https://media2.giphy.com/media/z9vxfIMzxbTaGwBkc5/giphy_s.gif?cid=ecf05e47cjnt33447pqnhksb17ve7x5zi6bsr2dagkvtdyvh&rid=giphy_s.gif&ct=s" width="40">  -->
 
 ## <img src="https://media2.giphy.com/media/z9vxfIMzxbTaGwBkc5/giphy_s.gif?cid=ecf05e47cjnt33447pqnhksb17ve7x5zi6bsr2dagkvtdyvh&rid=giphy_s.gif&ct=s" width="40"> &nbsp; **About me** 
 <!-- <br> -->
@@ -66,7 +67,6 @@ https://github.com/devxb/gitanimals  -->
   />
 
   
-  
 </a>
 <!-- <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
@@ -74,6 +74,10 @@ https://github.com/devxb/gitanimals  -->
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
 </picture> -->
 </p>
+<p align="center">
+        <img src="https://github-stats-alpha.vercel.app/api?username=hyunolike&cc=000&tc=fff&ic=fff&bc=000"/>
+</p>
+
 
 <!-- 2023/04/28일자 주석 처리 :: 첫 깃허브 프로필 입니다 :) -->
 <!-- <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fhyunolike%2Fhyunolike&count_bg=%2300C13A&title_bg=%23252525&icon=github.svg&icon_color=%23E7E7E7&title=hits&edge_flat=true"/></a>
