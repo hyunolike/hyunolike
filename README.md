@@ -38,6 +38,10 @@
 <br />
 <br />
 
+## Repository Visitors
+
+[![Repository Visitors](./repo-traffic.svg)](https://github.com/hyunolike?tab=repositories)
+
 <!--
 <p align="center"> 
 <img src="https://github-readme-stats.vercel.app/api?username=hyunolike&show_icons=true&locale=kr&hide_border=true&bg_color=151515&text_color=FEFEFE&rank_icon=github" width="40%"></img>
@@ -99,5 +103,4 @@ https://github.com/devxb/gitanimals  -->
 <!-- 기본 프로필 -->
 <!-- [![Tech Blog Badge](http://img.shields.io/badge/-Tech%20blog-black?style=flat-square&logo=gitlab&link=https://taetaetae.github.io/)](https://hyunolike.gitlab.io/) -->
 <!-- [![](https://img.shields.io/badge/Daily_Study-0A66C2?style=flat-square&logo=spring&logoColor=green)](https://github.com/hyunolike/practice-in-java) -->
-
 

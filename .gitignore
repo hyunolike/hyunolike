@@ -1,3 +1,5 @@
 docs/
 .claude/
 .idea/
+private-profile-data/
+traffic-history.json
