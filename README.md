@@ -38,7 +38,9 @@
 <br />
 <br />
 
-<!-- [![Repository Visitors](./repo-traffic.svg)](https://github.com/hyunolike?tab=repositories) -->
+## Repository Visitors
+
+[![Repository Visitors](./repo-traffic.svg)](https://github.com/hyunolike?tab=repositories)
 
 <!--
 <p align="center"> 

@@ -31,6 +31,8 @@ jobs:
         env:
           GITHUB_OWNER: hyunolike
           MAX_REPOSITORIES: '30'
+          EXTRA_REPOSITORIES: ${{ secrets.EXTRA_REPOSITORIES }}
+          EXTRA_REPOSITORY_LABELS: ${{ secrets.EXTRA_REPOSITORY_LABELS }}
           TRAFFIC_API_TOKEN: ${{ secrets.PROFILE_TRAFFIC_TOKEN }}
         run: |
           node scripts/generate-repo-traffic.mjs \
