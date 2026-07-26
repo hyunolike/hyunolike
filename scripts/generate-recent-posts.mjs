@@ -107,16 +107,21 @@ export function parseFeed(xml) {
   return items;
 }
 
+const SEOUL_DATE_FORMATTER = new Intl.DateTimeFormat('en-CA', {
+  timeZone: 'Asia/Seoul',
+  year: 'numeric',
+  month: '2-digit',
+  day: '2-digit',
+});
+
 export function formatDate(dateStr) {
   const d = new Date(dateStr);
   if (Number.isNaN(d.getTime())) return '';
-  const formatter = new Intl.DateTimeFormat('en-CA', {
-    timeZone: 'Asia/Seoul',
-    year: 'numeric',
-    month: '2-digit',
-    day: '2-digit',
-  });
-  return formatter.format(d).replace(/-/g, '.');
+  return SEOUL_DATE_FORMATTER.format(d).replace(/-/g, '.');
+}
+
+function todaySeoul() {
+  return SEOUL_DATE_FORMATTER.format(new Date()).replace(/-/g, '.');
 }
 
 function charWidth(ch) {
@@ -153,18 +158,34 @@ const HEADER_HEIGHT = 52;
 const ROW_HEIGHT = 34;
 const FOOTER_PADDING = 18;
 const MAX_TITLE_WIDTH = 42;
+const LOGO_SIZE = 18;
+const NEW_BADGE_WIDTH = 30;
+const NEW_BADGE_HEIGHT = 14;
+const NEW_BADGE_GAP = 8;
+const NEW_TITLE_WIDTH_PENALTY = 10;
 const FONT_STACK =
   '-apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif';
 
 export function buildSvg(items) {
+  const today = todaySeoul();
+  const titleBaseX = PADDING_X + 20;
+
   const rows = items
     .map((item, i) => {
       const y = HEADER_HEIGHT + i * ROW_HEIGHT + ROW_HEIGHT / 2 + 4;
-      const title = escapeXml(truncateTitle(item.title, MAX_TITLE_WIDTH));
+      const isNew = item.date === today;
+      const titleX = isNew ? titleBaseX + NEW_BADGE_WIDTH + NEW_BADGE_GAP : titleBaseX;
+      const titleMaxWidth = isNew ? MAX_TITLE_WIDTH - NEW_TITLE_WIDTH_PENALTY : MAX_TITLE_WIDTH;
+      const title = escapeXml(truncateTitle(item.title, titleMaxWidth));
       const date = escapeXml(item.date);
+      const badge = isNew
+        ? `
+    <rect class="new-badge" x="${titleBaseX}" y="${y - 10}" width="${NEW_BADGE_WIDTH}" height="${NEW_BADGE_HEIGHT}" rx="4"/>
+    <text class="new-text" x="${titleBaseX + NEW_BADGE_WIDTH / 2}" y="${y - 3}" text-anchor="middle" dominant-baseline="central">NEW</text>`
+        : '';
       return `
-    <text class="marker" x="${PADDING_X}" y="${y}">▶</text>
-    <text class="title" x="${PADDING_X + 20}" y="${y}">${title}</text>
+    <text class="marker" x="${PADDING_X}" y="${y}">▶</text>${badge}
+    <text class="title" x="${titleX}" y="${y}">${title}</text>
     <text class="date" x="${WIDTH - PADDING_X}" y="${y}" text-anchor="end">${date}</text>`;
     })
     .join('');
@@ -179,6 +200,10 @@ export function buildSvg(items) {
     .marker { font: 400 13px ${FONT_STACK}; fill: #58a6ff; }
     .title { font: 400 14px ${FONT_STACK}; fill: #e6edf3; }
     .date { font: 400 12px ${FONT_STACK}; fill: #8b949e; }
+    .logo-badge { fill: #58a6ff; }
+    .logo-letter { font: 700 12px ${FONT_STACK}; fill: #ffffff; }
+    .new-badge { fill: #f85149; }
+    .new-text { font: 700 8px ${FONT_STACK}; fill: #ffffff; letter-spacing: 0.5px; }
     @media (prefers-color-scheme: light) {
       .card { fill: #ffffff; stroke: #d0d7de; }
       .heading { fill: #1f2328; }
@@ -186,10 +211,14 @@ export function buildSvg(items) {
       .marker { fill: #0969da; }
       .title { fill: #1f2328; }
       .date { fill: #57606a; }
+      .logo-badge { fill: #0969da; }
+      .new-badge { fill: #cf222e; }
     }
   </style>
   <rect class="card" x="0.5" y="0.5" width="${WIDTH - 1}" height="${height - 1}" rx="12"/>
-  <text class="heading" x="${PADDING_X}" y="30">📝 최근 블로그 글</text>
+  <rect class="logo-badge" x="${PADDING_X}" y="13" width="${LOGO_SIZE}" height="${LOGO_SIZE}" rx="4"/>
+  <text class="logo-letter" x="${PADDING_X + LOGO_SIZE / 2}" y="${13 + LOGO_SIZE / 2}" text-anchor="middle" dominant-baseline="central">T</text>
+  <text class="heading" x="${PADDING_X + LOGO_SIZE + 8}" y="30">최근 블로그 글</text>
   <line class="divider" x1="${PADDING_X}" y1="42" x2="${WIDTH - PADDING_X}" y2="42"/>${rows}
 </svg>`;
 }
