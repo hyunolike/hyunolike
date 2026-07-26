@@ -1,8 +1,10 @@
 // scripts/generate-recent-posts.mjs
 import { writeFileSync } from 'node:fs';
+import { pathToFileURL } from 'node:url';
 
 const FEED_URL = process.env.FEED_URL || 'https://hyunolike.tistory.com/rss';
-const MAX_POSTS = Number.parseInt(process.env.MAX_POSTS || '5', 10);
+const parsedMaxPosts = Number.parseInt(process.env.MAX_POSTS || '5', 10);
+const MAX_POSTS = Number.isInteger(parsedMaxPosts) && parsedMaxPosts > 0 ? parsedMaxPosts : 5;
 const OUT_FILE = process.env.OUT_FILE || 'recent-posts.svg';
 
 const ENTITY_MAP = {
@@ -12,14 +14,36 @@ const ENTITY_MAP = {
   quot: '"',
   apos: "'",
   nbsp: ' ',
+  hellip: '…',
+  mdash: '—',
+  ndash: '–',
+  middot: '·',
+  lsquo: '‘',
+  rsquo: '’',
+  ldquo: '“',
+  rdquo: '”',
+  copy: '©',
+  reg: '®',
+  trade: '™',
 };
+
+function isXmlLegalCodePoint(code) {
+  return (
+    code === 0x9 ||
+    code === 0xa ||
+    code === 0xd ||
+    (code >= 0x20 && code <= 0xd7ff) ||
+    (code >= 0xe000 && code <= 0xfffd) ||
+    (code >= 0x10000 && code <= 0x10ffff)
+  );
+}
 
 export function decodeEntities(str) {
   return str.replace(/&(#x?[0-9a-fA-F]+|[a-zA-Z]+);/g, (match, entity) => {
     if (entity[0] === '#') {
       const isHex = entity[1] === 'x' || entity[1] === 'X';
       const code = isHex ? parseInt(entity.slice(2), 16) : parseInt(entity.slice(1), 10);
-      return Number.isNaN(code) ? match : String.fromCodePoint(code);
+      return Number.isNaN(code) || !isXmlLegalCodePoint(code) ? match : String.fromCodePoint(code);
     }
     return Object.prototype.hasOwnProperty.call(ENTITY_MAP, entity)
       ? ENTITY_MAP[entity]
@@ -187,10 +211,10 @@ async function main() {
     date: formatDate(item.date),
   }));
   const svg = buildSvg(posts);
-  writeFileSync(OUT_FILE, svg, 'utf-8');
+  writeFileSync(OUT_FILE, svg + '\n', 'utf-8');
   console.log(`Wrote ${OUT_FILE} with ${posts.length} posts.`);
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (import.meta.url === pathToFileURL(process.argv[1]).href) {
   main();
 }
