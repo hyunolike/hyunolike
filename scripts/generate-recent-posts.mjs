@@ -159,10 +159,10 @@ const ROW_HEIGHT = 34;
 const FOOTER_PADDING = 18;
 const MAX_TITLE_WIDTH = 42;
 const LOGO_SIZE = 18;
-const NEW_BADGE_WIDTH = 30;
-const NEW_BADGE_HEIGHT = 14;
+const NEW_BADGE_WIDTH = 34;
+const NEW_BADGE_HEIGHT = 16;
 const NEW_BADGE_GAP = 8;
-const NEW_TITLE_WIDTH_PENALTY = 10;
+const NEW_TITLE_WIDTH_PENALTY = 11;
 const FONT_STACK =
   '-apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif';
 
@@ -178,10 +178,11 @@ export function buildSvg(items) {
       const titleMaxWidth = isNew ? MAX_TITLE_WIDTH - NEW_TITLE_WIDTH_PENALTY : MAX_TITLE_WIDTH;
       const title = escapeXml(truncateTitle(item.title, titleMaxWidth));
       const date = escapeXml(item.date);
+      const badgeCenterY = y - 3;
       const badge = isNew
         ? `
-    <rect class="new-badge" x="${titleBaseX}" y="${y - 10}" width="${NEW_BADGE_WIDTH}" height="${NEW_BADGE_HEIGHT}" rx="4"/>
-    <text class="new-text" x="${titleBaseX + NEW_BADGE_WIDTH / 2}" y="${y - 3}" text-anchor="middle" dominant-baseline="central">NEW</text>`
+    <rect class="new-badge" x="${titleBaseX}" y="${badgeCenterY - NEW_BADGE_HEIGHT / 2}" width="${NEW_BADGE_WIDTH}" height="${NEW_BADGE_HEIGHT}" rx="${NEW_BADGE_HEIGHT / 2}"/>
+    <text class="new-text" x="${titleBaseX + NEW_BADGE_WIDTH / 2}" y="${badgeCenterY}" text-anchor="middle" dominant-baseline="central">NEW</text>`
         : '';
       return `
     <text class="marker" x="${PADDING_X}" y="${y}">▶</text>${badge}
@@ -200,10 +201,8 @@ export function buildSvg(items) {
     .marker { font: 400 13px ${FONT_STACK}; fill: #58a6ff; }
     .title { font: 400 14px ${FONT_STACK}; fill: #e6edf3; }
     .date { font: 400 12px ${FONT_STACK}; fill: #8b949e; }
-    .logo-badge { fill: #58a6ff; }
-    .logo-letter { font: 700 12px ${FONT_STACK}; fill: #ffffff; }
-    .new-badge { fill: #f85149; }
-    .new-text { font: 700 8px ${FONT_STACK}; fill: #ffffff; letter-spacing: 0.5px; }
+    .new-badge { fill: #238636; }
+    .new-text { font: 700 9px ${FONT_STACK}; fill: #ffffff; letter-spacing: 0.3px; }
     @media (prefers-color-scheme: light) {
       .card { fill: #ffffff; stroke: #d0d7de; }
       .heading { fill: #1f2328; }
@@ -211,13 +210,16 @@ export function buildSvg(items) {
       .marker { fill: #0969da; }
       .title { fill: #1f2328; }
       .date { fill: #57606a; }
-      .logo-badge { fill: #0969da; }
-      .new-badge { fill: #cf222e; }
+      .new-badge { fill: #1a7f37; }
     }
   </style>
   <rect class="card" x="0.5" y="0.5" width="${WIDTH - 1}" height="${height - 1}" rx="12"/>
-  <rect class="logo-badge" x="${PADDING_X}" y="13" width="${LOGO_SIZE}" height="${LOGO_SIZE}" rx="4"/>
-  <text class="logo-letter" x="${PADDING_X + LOGO_SIZE / 2}" y="${13 + LOGO_SIZE / 2}" text-anchor="middle" dominant-baseline="central">T</text>
+  <svg x="${PADDING_X}" y="13" width="${LOGO_SIZE}" height="${LOGO_SIZE}" viewBox="0 0 50 50">
+    <path d="M50 25c0 13.807-11.193 25-25 25S0 38.807 0 25 11.193 0 25 0s25 11.193 25 25" fill="#FF5A4A"/>
+    <g fill="#FFF">
+      <path d="M25.544 14.674a2.717 2.717 0 1 0 0 5.435 2.717 2.717 0 0 0 0-5.435M16.848 14.674a2.717 2.717 0 1 0 0 5.435 2.717 2.717 0 0 0 0-5.435M34.24 14.674a2.718 2.718 0 1 0 0 5.435 2.718 2.718 0 0 0 0-5.435M25.544 23.37a2.718 2.718 0 1 0 0 5.435 2.718 2.718 0 0 0 0-5.435M25.544 32.065a2.718 2.718 0 1 0 0 5.436 2.718 2.718 0 0 0 0-5.436"/>
+    </g>
+  </svg>
   <text class="heading" x="${PADDING_X + LOGO_SIZE + 8}" y="30">최근 블로그 글</text>
   <line class="divider" x1="${PADDING_X}" y1="42" x2="${WIDTH - PADDING_X}" y2="42"/>${rows}
 </svg>`;
