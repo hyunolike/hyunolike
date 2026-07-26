@@ -1,0 +1,64 @@
+name: Update profile assets
+
+on:
+  schedule:
+    - cron: '17 18 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-repo-traffic:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Checkout private traffic history
+        uses: actions/checkout@v4
+        with:
+          repository: hyunolike/profile-private-data
+          token: ${{ secrets.PROFILE_TRAFFIC_TOKEN }}
+          path: private-profile-data
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Generate repository traffic card
+        env:
+          GITHUB_OWNER: hyunolike
+          MAX_REPOSITORIES: '30'
+          TRAFFIC_API_TOKEN: ${{ secrets.PROFILE_TRAFFIC_TOKEN }}
+        run: |
+          node scripts/generate-repo-traffic.mjs \
+            --collect \
+            --history private-profile-data/traffic-history.json \
+            --out repo-traffic.svg
+
+      - name: Commit public profile assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add repo-traffic.svg
+          if git diff --cached --quiet; then
+            echo "No public profile asset changes."
+          else
+            git commit -m "chore: update repository traffic card"
+            git push
+          fi
+
+      - name: Commit private traffic history
+        working-directory: private-profile-data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add traffic-history.json
+          if git diff --cached --quiet; then
+            echo "No private traffic history changes."
+          else
+            git commit -m "chore: update traffic history"
+            git push
+          fi
