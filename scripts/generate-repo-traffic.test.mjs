@@ -1,9 +1,12 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
+  buildRepositoryQueries,
   buildSnapshotFromTrafficResults,
   buildSvg,
   calculateMetrics,
+  parseRepositoryLabels,
+  parseRepositoryRefs,
   mergeSnapshot,
   normalizeHistory,
 } from './generate-repo-traffic.mjs';
@@ -168,6 +171,30 @@ test('buildSvg keeps image mode sections vertically balanced', () => {
   assert.match(svg, /<text class="subtle" x="96" y="292">Top repo:/);
   assert.match(svg, /<text class="repo-title" x="318" y="194">/);
   assert.match(svg, /<text class="rank" x="322" y="220">1<\/text>/);
+});
+
+test('parseRepositoryRefs parses explicit organization repositories', () => {
+  assert.deepEqual(parseRepositoryRefs('org-a/api, company-org/web\nteam/tools '), [
+    { owner: 'org-a', repo: 'api', fullName: 'org-a/api' },
+    { owner: 'company-org', repo: 'web', fullName: 'company-org/web' },
+    { owner: 'team', repo: 'tools', fullName: 'team/tools' },
+  ]);
+});
+
+test('buildRepositoryQueries adds explicit repositories with optional display labels', () => {
+  const labels = parseRepositoryLabels('org-a/api:team-api,company-org/web:internal-web');
+  const queries = buildRepositoryQueries({
+    owner: 'hyunolike',
+    ownerRepoNames: ['moyeorak-web', 'hyunolike'],
+    extraRepositories: 'org-a/api, company-org/web',
+    repositoryLabels: labels,
+  });
+
+  assert.deepEqual(queries, [
+    { owner: 'hyunolike', repo: 'moyeorak-web', displayName: 'moyeorak-web' },
+    { owner: 'org-a', repo: 'api', displayName: 'team-api' },
+    { owner: 'company-org', repo: 'web', displayName: 'internal-web' },
+  ]);
 });
 
 test('buildSnapshotFromTrafficResults converts GitHub traffic responses into daily snapshot rows', () => {

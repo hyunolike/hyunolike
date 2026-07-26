@@ -127,6 +127,75 @@ function isIncludedRepository(name) {
   return !EXCLUDED_REPOSITORIES.has(String(name || '').trim().toLowerCase());
 }
 
+function repoKey(owner, repo) {
+  return `${String(owner || '').trim().toLowerCase()}/${String(repo || '').trim().toLowerCase()}`;
+}
+
+export function parseRepositoryRefs(value) {
+  return String(value || '')
+    .split(/[\s,]+/)
+    .map((entry) => entry.trim())
+    .filter(Boolean)
+    .map((entry) => entry.split(':')[0])
+    .map((entry) => {
+      const [owner, repo] = entry.split('/');
+      return {
+        owner: String(owner || '').trim(),
+        repo: String(repo || '').trim(),
+      };
+    })
+    .filter((ref) => ref.owner && ref.repo)
+    .map((ref) => ({ ...ref, fullName: `${ref.owner}/${ref.repo}` }));
+}
+
+export function parseRepositoryLabels(value) {
+  const labels = new Map();
+  for (const entry of String(value || '').split(/[\n,]+/)) {
+    const [fullName, ...labelParts] = entry.trim().split(':');
+    const [owner, repo] = String(fullName || '').trim().split('/');
+    const label = labelParts.join(':').trim();
+    if (!owner || !repo || !label) continue;
+    labels.set(repoKey(owner, repo), label);
+  }
+  return labels;
+}
+
+export function buildRepositoryQueries({
+  owner,
+  ownerRepoNames,
+  extraRepositories = '',
+  repositoryLabels = new Map(),
+}) {
+  const seen = new Set();
+  const queries = [];
+  const addQuery = (query) => {
+    const key = repoKey(query.owner, query.repo);
+    if (!query.owner || !query.repo || seen.has(key) || !isIncludedRepository(query.repo)) return;
+    seen.add(key);
+    queries.push(query);
+  };
+
+  for (const repo of ownerRepoNames) {
+    const key = repoKey(owner, repo);
+    addQuery({
+      owner,
+      repo,
+      displayName: repositoryLabels.get(key) || repo,
+    });
+  }
+
+  for (const ref of parseRepositoryRefs(extraRepositories)) {
+    const key = repoKey(ref.owner, ref.repo);
+    addQuery({
+      owner: ref.owner,
+      repo: ref.repo,
+      displayName: repositoryLabels.get(key) || ref.fullName,
+    });
+  }
+
+  return queries;
+}
+
 function mimeTypeForImagePath(filePath) {
   const lower = String(filePath).toLowerCase();
   if (lower.endsWith('.jpg') || lower.endsWith('.jpeg')) return 'image/jpeg';
@@ -259,13 +328,13 @@ async function listOwnerRepositories({ owner, token, maxRepositories, fetchImpl 
   return repositories;
 }
 
-async function fetchRepoTraffic({ owner, repo, token, fetchImpl = fetch }) {
+async function fetchRepoTraffic({ owner, repo, displayName = repo, token, fetchImpl = fetch }) {
   try {
     const [views, clones] = await Promise.all([
       githubJson(`/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}/traffic/views`, token, fetchImpl),
       githubJson(`/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}/traffic/clones`, token, fetchImpl),
     ]);
-    return { name: repo, views, clones };
+    return { name: displayName, views, clones };
   } catch (error) {
     if (error.status === 403 || error.status === 404) {
       console.warn(`Skipping ${owner}/${repo}: traffic data unavailable (${error.status})`);
@@ -279,6 +348,8 @@ export async function collectTrafficSnapshot({
   owner = process.env.GITHUB_OWNER || 'hyunolike',
   token = process.env.TRAFFIC_API_TOKEN || process.env.GITHUB_TOKEN,
   maxRepositories = Number.parseInt(process.env.MAX_REPOSITORIES || '30', 10),
+  extraRepositories = process.env.EXTRA_REPOSITORIES || '',
+  repositoryLabels = process.env.EXTRA_REPOSITORY_LABELS || '',
   fetchImpl = fetch,
 } = {}) {
   if (!token) {
@@ -287,10 +358,17 @@ export async function collectTrafficSnapshot({
 
   const repositoryLimit = Number.isInteger(maxRepositories) && maxRepositories > 0 ? maxRepositories : 30;
   const repos = await listOwnerRepositories({ owner, token, maxRepositories: repositoryLimit, fetchImpl });
+  const labels = repositoryLabels instanceof Map ? repositoryLabels : parseRepositoryLabels(repositoryLabels);
+  const queries = buildRepositoryQueries({
+    owner,
+    ownerRepoNames: repos,
+    extraRepositories,
+    repositoryLabels: labels,
+  });
   const results = [];
 
-  for (const repo of repos) {
-    const result = await fetchRepoTraffic({ owner, repo, token, fetchImpl });
+  for (const query of queries) {
+    const result = await fetchRepoTraffic({ ...query, token, fetchImpl });
     if (result) results.push(result);
   }
 
