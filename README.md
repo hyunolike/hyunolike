@@ -38,10 +38,6 @@
 <br />
 <br />
 
-## Repository Visitors
-
-[![Repository Visitors](./repo-traffic.svg)](https://github.com/hyunolike?tab=repositories)
-
 <!--
 <p align="center"> 
 <img src="https://github-readme-stats.vercel.app/api?username=hyunolike&show_icons=true&locale=kr&hide_border=true&bg_color=151515&text_color=FEFEFE&rank_icon=github" width="40%"></img>
