@@ -31,7 +31,7 @@
 - 📫 How to reach me: **hyunho.jang.dev@gmail.com**
 - ⚡ Fun fact I also love to hear songs during coding.
 
-## 📝 최근 블로그 글
+<!-- ## 📝 최근 블로그 글 -->
 
 [![최근 블로그 글](./recent-posts.svg)](https://hyunolike.tistory.com/)
 
@@ -83,7 +83,8 @@ https://github.com/devxb/gitanimals  -->
 </picture> -->
 </p>
 <p align="center">
-        <img src="https://github-stats-alpha.vercel.app/api?username=hyunolike&cc=000&tc=fff&ic=fff&bc=000"/>
+        <!-- <img src="https://github-stats-alpha.vercel.app/api?username=hyunolike&cc=000&tc=fff&ic=fff&bc=000"/> -->
+        <a href="https://github.com/hyunolike?tab=repositories"><img src="./repo-traffic.svg"/></a>
 </p>
 
 
