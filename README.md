@@ -31,7 +31,7 @@
 - 📫 How to reach me: **hyunho.jang.dev@gmail.com**
 - ⚡ Fun fact I also love to hear songs during coding.
 
-## 📝 최근 블로그 글
+<!-- ## 📝 최근 블로그 글 -->
 
 [![최근 블로그 글](./recent-posts.svg)](https://hyunolike.tistory.com/)
 
