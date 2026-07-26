@@ -13,19 +13,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout profile repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Checkout private traffic history
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: hyunolike/profile-private-data
           token: ${{ secrets.PROFILE_TRAFFIC_TOKEN }}
           path: private-profile-data
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: '22'
+          node-version: '24'
+          package-manager-cache: false
 
       - name: Generate repository traffic card
         env:
