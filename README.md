@@ -38,9 +38,7 @@
 <br />
 <br />
 
-## Repository Visitors
-
-[![Repository Visitors](./repo-traffic.svg)](https://github.com/hyunolike?tab=repositories)
+<!-- [![Repository Visitors](./repo-traffic.svg)](https://github.com/hyunolike?tab=repositories) -->
 
 <!--
 <p align="center"> 
@@ -83,7 +81,8 @@ https://github.com/devxb/gitanimals  -->
 </picture> -->
 </p>
 <p align="center">
-        <img src="https://github-stats-alpha.vercel.app/api?username=hyunolike&cc=000&tc=fff&ic=fff&bc=000"/>
+        <!-- <img src="https://github-stats-alpha.vercel.app/api?username=hyunolike&cc=000&tc=fff&ic=fff&bc=000"/> -->
+        <a href="https://github.com/hyunolike?tab=repositories"><img src="./repo-traffic.svg"/></a>
 </p>
 
 
