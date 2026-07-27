@@ -50,7 +50,18 @@ jobs:
             echo "No public profile asset changes."
           else
             git commit -m "chore: update repository traffic card"
-            git push
+            for attempt in 1 2 3 4 5; do
+              if git pull --rebase origin master && git push origin HEAD:master; then
+                echo "Pushed on attempt ${attempt}."
+                break
+              fi
+              if [ "${attempt}" -eq 5 ]; then
+                echo "Push failed after ${attempt} attempts." >&2
+                exit 1
+              fi
+              echo "Push rejected, retrying (${attempt})..."
+              sleep $((attempt * 2))
+            done
           fi
 
       - name: Commit private traffic history
@@ -63,5 +74,16 @@ jobs:
             echo "No private traffic history changes."
           else
             git commit -m "chore: update traffic history"
-            git push
+            for attempt in 1 2 3 4 5; do
+              if git pull --rebase && git push; then
+                echo "Pushed on attempt ${attempt}."
+                break
+              fi
+              if [ "${attempt}" -eq 5 ]; then
+                echo "Push failed after ${attempt} attempts." >&2
+                exit 1
+              fi
+              echo "Push rejected, retrying (${attempt})..."
+              sleep $((attempt * 2))
+            done
           fi
