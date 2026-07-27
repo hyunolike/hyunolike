@@ -28,18 +28,18 @@
   <text class="heading" x="50" y="30">최근 블로그 글</text>
   <line class="divider" x1="24" y1="42" x2="756" y2="42"/>
     <text class="marker" x="24" y="73">▶</text>
-    <text class="title" x="44" y="73">[프로젝트] 운영 중인 서비스의 이중 DB를 PostgreSQL+PostGIS 하나로 통합한 이야기</text>
-    <text class="date" x="756" y="73" text-anchor="end">2026.07.17</text>
+    <text class="title" x="44" y="73">[프로젝트] 새 계측 없이 완성한 Slack 운영 알림 &amp;mdash; 외부 API Quota&amp;middot;일…</text>
+    <text class="date" x="756" y="73" text-anchor="end">2026.07.27</text>
     <text class="marker" x="24" y="107">▶</text>
-    <text class="title" x="44" y="107">[운영] Visual Studio 2003 웹 프로젝트는 왜 IIS 10에서 열리지 않았을까</text>
-    <text class="date" x="756" y="107" text-anchor="end">2026.07.14</text>
+    <text class="title" x="44" y="107">[프로젝트] 운영 중인 서비스의 이중 DB를 PostgreSQL+PostGIS 하나로 통합한 이야기</text>
+    <text class="date" x="756" y="107" text-anchor="end">2026.07.17</text>
     <text class="marker" x="24" y="141">▶</text>
-    <text class="title" x="44" y="141">[CLOUD] $100 크레딧으로 실서비스 버티기: Terraform으로 설계한 월 $20 AWS 인프라</text>
-    <text class="date" x="756" y="141" text-anchor="end">2026.07.10</text>
+    <text class="title" x="44" y="141">[운영] Visual Studio 2003 웹 프로젝트는 왜 IIS 10에서 열리지 않았을까</text>
+    <text class="date" x="756" y="141" text-anchor="end">2026.07.14</text>
     <text class="marker" x="24" y="175">▶</text>
-    <text class="title" x="44" y="175">[BE] 클론 한 번이면 아키텍처가 따라오는 템플릿: Kotlin + Spring Boot 4.1 + Spri…</text>
-    <text class="date" x="756" y="175" text-anchor="end">2026.07.09</text>
+    <text class="title" x="44" y="175">[CLOUD] $100 크레딧으로 실서비스 버티기: Terraform으로 설계한 월 $20 AWS 인프라</text>
+    <text class="date" x="756" y="175" text-anchor="end">2026.07.10</text>
     <text class="marker" x="24" y="209">▶</text>
-    <text class="title" x="44" y="209">[CS] 프론트엔드와 백엔드의 런타임은 무엇이 다를까? - 브라우저, Node.js, JVM 그리…</text>
-    <text class="date" x="756" y="209" text-anchor="end">2026.07.05</text>
+    <text class="title" x="44" y="209">[BE] 클론 한 번이면 아키텍처가 따라오는 템플릿: Kotlin + Spring Boot 4.1 + Spri…</text>
+    <text class="date" x="756" y="209" text-anchor="end">2026.07.09</text>
 </svg>
