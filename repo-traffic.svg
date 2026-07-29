@@ -74,7 +74,7 @@
   <rect class="card" x="0.5" y="0.5" width="779" height="321" rx="12"/>
   <text class="heading" x="28" y="36">Repository Visitors</text>
   <text class="subtle" x="28" y="56">Long-term traffic, generated daily</text>
-  <text class="subtle" x="752" y="36" text-anchor="end">Updated 2026.07.29</text>
+  <text class="subtle" x="752" y="36" text-anchor="end">Updated 2026.07.30</text>
   <line class="divider" x1="28" y1="76" x2="752" y2="76"/>
 
 
@@ -91,14 +91,14 @@
   <text class="subtle" x="96" y="292">Top repo: hanjeok</text>
 
   <text class="metric-label" x="318" y="112">Total Views</text>
-  <text class="metric-value" x="496" y="112" text-anchor="end">8</text>
+  <text class="metric-value" x="496" y="112" text-anchor="end">10</text>
   <text class="metric-label" x="548" y="112">Unique Visitors</text>
-  <text class="metric-value" x="728" y="112" text-anchor="end">2</text>
+  <text class="metric-value" x="728" y="112" text-anchor="end">3</text>
 
   <text class="metric-label" x="318" y="148">Total Clones</text>
-  <text class="metric-value" x="496" y="148" text-anchor="end">95</text>
+  <text class="metric-value" x="496" y="148" text-anchor="end">106</text>
   <text class="metric-label" x="548" y="148">Recent Top Views</text>
-  <text class="metric-value" x="728" y="148" text-anchor="end">19</text>
+  <text class="metric-value" x="728" y="148" text-anchor="end">21</text>
 
   <line class="divider" x1="318" y1="172" x2="728" y2="172"/>
   <text class="repo-title" x="318" y="194">Most Viewed Repositories - Last 14 Days</text>
@@ -106,15 +106,15 @@
     <text class="repo" x="348" y="220">hanjeok</text>
     <rect class="bar-bg" x="536" y="209" width="144" height="8" rx="4"/>
     <rect class="bar" x="536" y="209" width="144" height="8" rx="4"/>
-    <text class="repo-count" x="724" y="220">19</text>
+    <text class="repo-count" x="724" y="220">21</text>
     <text class="rank" x="322" y="252">2</text>
     <text class="repo" x="348" y="252">nextjs-fsd-template</text>
     <rect class="bar-bg" x="536" y="241" width="144" height="8" rx="4"/>
-    <rect class="bar" x="536" y="241" width="76" height="8" rx="4"/>
+    <rect class="bar" x="536" y="241" width="69" height="8" rx="4"/>
     <text class="repo-count" x="724" y="252">10</text>
     <text class="rank" x="322" y="284">3</text>
     <text class="repo" x="348" y="284">dev-diary</text>
     <rect class="bar-bg" x="536" y="273" width="144" height="8" rx="4"/>
-    <rect class="bar" x="536" y="273" width="23" height="8" rx="4"/>
+    <rect class="bar" x="536" y="273" width="21" height="8" rx="4"/>
     <text class="repo-count" x="724" y="284">3</text>
 </svg>
