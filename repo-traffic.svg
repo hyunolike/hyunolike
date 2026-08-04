@@ -74,7 +74,7 @@
   <rect class="card" x="0.5" y="0.5" width="779" height="321" rx="12"/>
   <text class="heading" x="28" y="36">Repository Visitors</text>
   <text class="subtle" x="28" y="56">Long-term traffic, generated daily</text>
-  <text class="subtle" x="752" y="36" text-anchor="end">Updated 2026.08.04</text>
+  <text class="subtle" x="752" y="36" text-anchor="end">Updated 2026.08.05</text>
   <line class="divider" x1="28" y1="76" x2="752" y2="76"/>
 
 
@@ -88,7 +88,7 @@
   </g>
 
   <text class="level" x="96" y="266">Lv. 1 Visitor</text>
-  <text class="subtle" x="96" y="292">Top repo: dev-diary</text>
+  <text class="subtle" x="96" y="292">Top repo: travel-context-wiki</text>
 
   <text class="metric-label" x="318" y="112">Total Views</text>
   <text class="metric-value" x="496" y="112" text-anchor="end">13</text>
@@ -96,25 +96,25 @@
   <text class="metric-value" x="728" y="112" text-anchor="end">6</text>
 
   <text class="metric-label" x="318" y="148">Total Clones</text>
-  <text class="metric-value" x="496" y="148" text-anchor="end">129</text>
+  <text class="metric-value" x="496" y="148" text-anchor="end">142</text>
   <text class="metric-label" x="548" y="148">Recent Top Views</text>
-  <text class="metric-value" x="728" y="148" text-anchor="end">3</text>
+  <text class="metric-value" x="728" y="148" text-anchor="end">11</text>
 
   <line class="divider" x1="318" y1="172" x2="728" y2="172"/>
   <text class="repo-title" x="318" y="194">Most Viewed Repositories - Last 14 Days</text>
     <text class="rank" x="322" y="220">1</text>
-    <text class="repo" x="348" y="220">dev-diary</text>
+    <text class="repo" x="348" y="220">travel-context-wiki</text>
     <rect class="bar-bg" x="536" y="209" width="144" height="8" rx="4"/>
     <rect class="bar" x="536" y="209" width="144" height="8" rx="4"/>
-    <text class="repo-count" x="724" y="220">3</text>
+    <text class="repo-count" x="724" y="220">11</text>
     <text class="rank" x="322" y="252">2</text>
-    <text class="repo" x="348" y="252">weather-web.landing</text>
+    <text class="repo" x="348" y="252">dev-diary</text>
     <rect class="bar-bg" x="536" y="241" width="144" height="8" rx="4"/>
-    <rect class="bar" x="536" y="241" width="96" height="8" rx="4"/>
-    <text class="repo-count" x="724" y="252">2</text>
+    <rect class="bar" x="536" y="241" width="39" height="8" rx="4"/>
+    <text class="repo-count" x="724" y="252">3</text>
     <text class="rank" x="322" y="284">3</text>
-    <text class="repo" x="348" y="284">banking.system-backen...</text>
+    <text class="repo" x="348" y="284">weather-web.landing</text>
     <rect class="bar-bg" x="536" y="273" width="144" height="8" rx="4"/>
-    <rect class="bar" x="536" y="273" width="48" height="8" rx="4"/>
-    <text class="repo-count" x="724" y="284">1</text>
+    <rect class="bar" x="536" y="273" width="26" height="8" rx="4"/>
+    <text class="repo-count" x="724" y="284">2</text>
 </svg>
