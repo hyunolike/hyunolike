@@ -9,7 +9,7 @@ const SEOUL_DATE_FORMATTER = new Intl.DateTimeFormat('en-CA', {
   day: '2-digit',
 });
 
-const FONT_STACK =
+export const FONT_STACK =
   '-apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif';
 const GITHUB_API_BASE = 'https://api.github.com';
 const GITHUB_API_VERSION = '2022-11-28';
@@ -123,7 +123,7 @@ function truncateRepoName(name, maxLength = 22) {
   return chars.length > maxLength ? `${chars.slice(0, maxLength - 1).join('')}...` : chars.join('');
 }
 
-function isIncludedRepository(name) {
+export function isIncludedRepository(name) {
   return !EXCLUDED_REPOSITORIES.has(String(name || '').trim().toLowerCase());
 }
 

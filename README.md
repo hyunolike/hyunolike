@@ -82,6 +82,9 @@ https://github.com/devxb/gitanimals  -->
         <!-- <img src="https://github-stats-alpha.vercel.app/api?username=hyunolike&cc=000&tc=fff&ic=fff&bc=000"/> -->
         <a href="https://github.com/hyunolike?tab=repositories"><img src="./repo-traffic.svg"/></a>
 </p>
+<p align="center">
+        <a href="https://github.com/hyunolike?tab=repositories"><img src="./visitor-trend.svg"/></a>
+</p>
 
 
 <!-- 2023/04/28일자 주석 처리 :: 첫 깃허브 프로필 입니다 :) -->

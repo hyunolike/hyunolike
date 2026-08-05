@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="260" viewBox="0 0 780 260" role="img" aria-labelledby="title desc">
+  <title id="title">Visitor Trend</title>
+  <desc id="desc">Daily GitHub repository traffic trend for hyunolike.</desc>
+  <style>
+    .card { fill: #0d1117; stroke: #30363d; }
+    .heading { font: 700 18px -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif; fill: #e6edf3; }
+    .subtle { font: 400 12px -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif; fill: #8b949e; }
+    .axis-label { font: 500 11px -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif; fill: #8b949e; }
+    .peak-label { font: 700 12px -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif; fill: #e6edf3; }
+    .legend-label { font: 500 12px -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif; fill: #c9d1d9; }
+    .empty { font: 600 15px -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif; fill: #8b949e; }
+    .axis { fill: none; stroke: #8b949e; stroke-width: 1.6; stroke-linecap: round; }
+    .grid { fill: none; stroke: #30363d; stroke-width: 1.2; stroke-linecap: round; }
+    .line-views { fill: none; stroke: #4dabf7; stroke-width: 1.9; stroke-linecap: round; stroke-linejoin: round; }
+    .line-uniques { fill: none; stroke: #69db7c; stroke-width: 1.9; stroke-linecap: round; stroke-linejoin: round; }
+    .dot-views { fill: #4dabf7; }
+    .dot-uniques { fill: #69db7c; }
+    @media (prefers-color-scheme: light) {
+      .card { fill: #ffffff; stroke: #d0d7de; }
+      .heading, .peak-label { fill: #1f2328; }
+      .subtle, .axis-label { fill: #57606a; }
+      .legend-label { fill: #24292f; }
+      .empty { fill: #57606a; }
+      .axis { stroke: #1e1e1e; }
+      .grid { stroke: #d0d7de; }
+      .line-views { stroke: #1971c2; }
+      .line-uniques { stroke: #2f9e44; }
+      .dot-views { fill: #1971c2; }
+      .dot-uniques { fill: #2f9e44; }
+    }
+  </style>
+  <rect class="card" x="0.5" y="0.5" width="779" height="259" rx="12"/>
+  <text class="heading" x="28" y="36">Visitor Trend</text>
+  <text class="subtle" x="28" y="56">Daily traffic across all repositories</text>
+  <text class="subtle" x="752" y="36" text-anchor="end">Updated 2026.08.05</text>
+  <path class="grid" d="M58.1 95.9 Q101.4 97.6 147.5 96 Q188 96.5 230.6 96.5 Q277.8 94 319.7 95 Q364.5 96.5 403.7 97.6 Q445.1 98.1 488 95.5 Q531.9 96.7 574.2 95.5 Q617.9 94.2 661.5 95.4 Q705.1 97.1 749 96.6 Q751.7 126.6 749 152.8 Q749.9 180.1 749.2 207.8 Q702.7 207.3 660 204.2 Q620.2 205 576.5 207.9 Q533 207.5 490.9 204.5 Q445.6 207.8 402.7 207.5 Q358.6 208.4 317.3 206.9 Q278.4 207.7 233.9 205.8 Q186.6 202.9 144.6 205 Q103.8 207.4 60.9 205.8 Q62.7 177.3 59.2 153 Q57.2 121.8 59.7 94.9"/>
+  <path class="grid" d="M60.6 94.3 Q102.3 92.8 147.2 95.1 Q189.1 93.8 231.9 95 Q271.9 97.1 316.8 95.8 Q358.8 96.9 402.9 94 Q448.9 97.6 490 97.9 Q534.8 99.5 576.7 97.2 Q616.5 95.3 661.7 97.2 Q703.6 97.9 747.9 95.8 Q749.9 121.8 746.4 152.8 Q748.4 176.8 747.9 206.5 Q706.9 208.2 662.6 207.6 Q618.3 208.7 577 206.4 Q535.6 208.1 490.4 204.2 Q448.2 207.1 402.2 206.8 Q358 208.3 317.6 207.2 Q277.1 204.4 232.3 204.4 Q191.5 207.6 147.3 205.4 Q103.8 204.1 59 204.4 Q61.5 177.2 60.8 150.3 Q58.4 126.1 61.3 96.5"/>
+  <text class="empty" x="390" y="156" text-anchor="middle">Collecting data...</text>
+</svg>
