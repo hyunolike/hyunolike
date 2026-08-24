@@ -28,18 +28,18 @@
   <text class="heading" x="50" y="30">최근 블로그 글</text>
   <line class="divider" x1="24" y1="42" x2="756" y2="42"/>
     <text class="marker" x="24" y="73">▶</text>
-    <text class="title" x="44" y="73">[운영] 코드만 옮기면 끝일까? SVN 커밋 이력을 보존하며 GitLab로 마이그레이션한 과…</text>
-    <text class="date" x="756" y="73" text-anchor="end">2026.08.19</text>
+    <text class="title" x="44" y="73">[프로젝트] GCP 단일 VM에 블루그린 배포를 올렸다 &amp;mdash; 무중단은 성공했지만 재부…</text>
+    <text class="date" x="756" y="73" text-anchor="end">2026.08.24</text>
     <text class="marker" x="24" y="107">▶</text>
-    <text class="title" x="44" y="107">[운영] 서로 다른 Linux&amp;middot;Windows 로그를 하나의 운영 원칙으로: AWS S3 로그 …</text>
-    <text class="date" x="756" y="107" text-anchor="end">2026.08.14</text>
+    <text class="title" x="44" y="107">[운영] 코드만 옮기면 끝일까? SVN 커밋 이력을 보존하며 GitLab로 마이그레이션한 과…</text>
+    <text class="date" x="756" y="107" text-anchor="end">2026.08.19</text>
     <text class="marker" x="24" y="141">▶</text>
-    <text class="title" x="44" y="141">[운영] AL2023에서 Cron 대신 systemd Timer를 선택한 이유와 AWS S3 파일 전송 운영…</text>
-    <text class="date" x="756" y="141" text-anchor="end">2026.08.03</text>
+    <text class="title" x="44" y="141">[운영] 서로 다른 Linux&amp;middot;Windows 로그를 하나의 운영 원칙으로: AWS S3 로그 …</text>
+    <text class="date" x="756" y="141" text-anchor="end">2026.08.14</text>
     <text class="marker" x="24" y="175">▶</text>
-    <text class="title" x="44" y="175">[프로젝트] 새 계측 없이 완성한 Slack 운영 알림 &amp;mdash; 외부 API Quota&amp;middot;일…</text>
-    <text class="date" x="756" y="175" text-anchor="end">2026.07.27</text>
+    <text class="title" x="44" y="175">[운영] AL2023에서 Cron 대신 systemd Timer를 선택한 이유와 AWS S3 파일 전송 운영…</text>
+    <text class="date" x="756" y="175" text-anchor="end">2026.08.03</text>
     <text class="marker" x="24" y="209">▶</text>
-    <text class="title" x="44" y="209">[프로젝트] 운영 중인 서비스의 이중 DB를 PostgreSQL+PostGIS 하나로 통합한 이야기</text>
-    <text class="date" x="756" y="209" text-anchor="end">2026.07.17</text>
+    <text class="title" x="44" y="209">[프로젝트] 새 계측 없이 완성한 Slack 운영 알림 &amp;mdash; 외부 API Quota&amp;middot;일…</text>
+    <text class="date" x="756" y="209" text-anchor="end">2026.07.27</text>
 </svg>
