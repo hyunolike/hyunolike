@@ -32,7 +32,7 @@
   <rect class="card" x="0.5" y="0.5" width="779" height="259" rx="12"/>
   <text class="heading" x="28" y="36">Visitor Trend</text>
   <text class="subtle" x="28" y="56">Daily traffic across all repositories</text>
-  <text class="subtle" x="752" y="36" text-anchor="end">Updated 2026.08.29</text>
+  <text class="subtle" x="752" y="36" text-anchor="end">Updated 2026.08.30</text>
   <path class="line-views" d="M520.1 62.9 Q530.3 62.5 542.6 62.1"/>
   <path class="line-views" d="M520.6 61.8 Q532.4 61.1 542.2 62.9"/>
   <text class="legend-label" x="548" y="66">Views</text>
