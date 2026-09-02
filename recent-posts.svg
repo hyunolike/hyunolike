@@ -28,9 +28,7 @@
   <text class="heading" x="50" y="30">최근 블로그 글</text>
   <line class="divider" x1="24" y1="42" x2="756" y2="42"/>
     <text class="marker" x="24" y="73">▶</text>
-    <rect class="new-badge" x="44" y="62" width="34" height="16" rx="8"/>
-    <text class="new-text" x="61" y="70" text-anchor="middle" dominant-baseline="central">NEW</text>
-    <text class="title" x="86" y="73">[운영] IIS를 멈추지 않고 RDS 점검 화면 전환하기: `app_offli…</text>
+    <text class="title" x="44" y="73">[운영] IIS를 멈추지 않고 RDS 점검 화면 전환하기: `app_offline.htm` 운영 적용기</text>
     <text class="date" x="756" y="73" text-anchor="end">2026.09.02</text>
     <text class="marker" x="24" y="107">▶</text>
     <text class="title" x="44" y="107">[프로젝트] PWA를 넣었더니 배포가 한 박자 늦게 보였다: 설치부터 서비스 워커 갱신까…</text>
