@@ -23,13 +23,14 @@
 
 - 🔭 I’m currently working on my Web & Server development skills.
 <!-- - 🌱 I’m currently learning Next.js(TypeScript) & Spring Boot(Kotlin, Java) by building projects. -->
-- 🌱 I’m currently learning Spring Boot(Kotlin, Java), AI(Python) by building projects.
-- 🧑🏻‍💻 I am interested in Backend Design and Development, Microservice architecture, Micro front-end architecture and Cloud Native technologies.
-- 💼 Currently working at a major KOSPI-listed corporation.
-- 🤓 Currently working on Full Stack Development!
-- 😄 I love exploring and learning new skills as well as implement those in my projects.
+- 💻 I'm a Backend-Focused Full-Stack Engineer with experience in Web & Server development.
+- 🌱 I'm continuously expanding my expertise in Spring Boot (Java/Kotlin) and AI application development with Python.
+- 🧠 I'm interested in Backend Design & Development, Microservices, Micro Frontends, Cloud Native, and AI-powered applications.
+- 🤖 I actively use AI-assisted development workflows with Claude Code and Codex for implementation, refactoring, debugging, testing, and code review.
+- 🚀 I'm exploring AI engineering with Spring AI, LangGraph, RAG, MCP, and agentic workflows.
+- 😄 I enjoy exploring new technologies and applying them to real-world projects.
 - 📫 How to reach me: **hyunho.jang.dev@gmail.com**
-- ⚡ Fun fact I also love to hear songs during coding.
+- ⚡ Fun fact: I love listening to music while coding.
 
 <!-- ## 📝 최근 블로그 글 -->
 
