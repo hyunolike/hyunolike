@@ -2,7 +2,7 @@
     <p align="center">
         <ruby>
             장현호
-            <rp>(</rp><rt><sup><sub>Backend Engineer</sub></sup></rt><rp>)</rp>
+            <rp>(</rp><rt><sup><sub>Full-Stack Product Engineer</sub></sup></rt><rp>)</rp>
         </ruby>
     </p>
     <a href="https://wakatime.com/@hyunolike"><img align="right" src="https://wakatime.com/badge/user/13ce4aa7-192c-43e7-aac5-7ae1d7958633.svg" alt="Total time coded since August 17 2024" /></a>
