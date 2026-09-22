@@ -28,18 +28,18 @@
   <text class="heading" x="50" y="30">최근 블로그 글</text>
   <line class="divider" x1="24" y1="42" x2="756" y2="42"/>
     <text class="marker" x="24" y="73">▶</text>
-    <text class="title" x="44" y="73">[프로젝트] 점검 페이지는 장애 난 시스템 밖에 있어야 한다</text>
-    <text class="date" x="756" y="73" text-anchor="end">2026.09.17</text>
+    <text class="title" x="44" y="73">[WEB] Vue의 $nextTick()만 기다렸는데 이미지 슬라이더가 깨진 이유</text>
+    <text class="date" x="756" y="73" text-anchor="end">2026.09.22</text>
     <text class="marker" x="24" y="107">▶</text>
-    <text class="title" x="44" y="107">[BE] 레거시 SOAP를 Spring Boot로 옮기며 배운 것들 &amp;mdash; Apache CXF, JAX-WS …</text>
-    <text class="date" x="756" y="107" text-anchor="end">2026.09.11</text>
+    <text class="title" x="44" y="107">[프로젝트] 점검 페이지는 장애 난 시스템 밖에 있어야 한다</text>
+    <text class="date" x="756" y="107" text-anchor="end">2026.09.17</text>
     <text class="marker" x="24" y="141">▶</text>
-    <text class="title" x="44" y="141">[프로젝트] 배치는 실행됐지만 성공한 게 아니었다</text>
-    <text class="date" x="756" y="141" text-anchor="end">2026.09.07</text>
+    <text class="title" x="44" y="141">[BE] 레거시 SOAP를 Spring Boot로 옮기며 배운 것들 &amp;mdash; Apache CXF, JAX-WS …</text>
+    <text class="date" x="756" y="141" text-anchor="end">2026.09.11</text>
     <text class="marker" x="24" y="175">▶</text>
-    <text class="title" x="44" y="175">[운영] IIS를 멈추지 않고 RDS 점검 화면 전환하기: `app_offline.htm` 운영 적용기</text>
-    <text class="date" x="756" y="175" text-anchor="end">2026.09.02</text>
+    <text class="title" x="44" y="175">[프로젝트] 배치는 실행됐지만 성공한 게 아니었다</text>
+    <text class="date" x="756" y="175" text-anchor="end">2026.09.07</text>
     <text class="marker" x="24" y="209">▶</text>
-    <text class="title" x="44" y="209">[프로젝트] PWA를 넣었더니 배포가 한 박자 늦게 보였다: 설치부터 서비스 워커 갱신까…</text>
-    <text class="date" x="756" y="209" text-anchor="end">2026.09.01</text>
+    <text class="title" x="44" y="209">[운영] IIS를 멈추지 않고 RDS 점검 화면 전환하기: `app_offline.htm` 운영 적용기</text>
+    <text class="date" x="756" y="209" text-anchor="end">2026.09.02</text>
 </svg>
