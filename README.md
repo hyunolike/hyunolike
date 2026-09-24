@@ -32,7 +32,14 @@
 - 📫 How to reach me: **hyunho.jang.dev@gmail.com**
 - ⚡ Fun fact: I love listening to music while coding.
 
-## 🛠️ &nbsp; **Featured Projects**
+## 🚀 &nbsp; **Services I Build & Run**
+
+<p align="center">
+  <a href="https://hanjeok.com/"><img src="./img/service-hanjeok.svg" width="49%" alt="Hanjeok (hanjeok.com): travel courses that avoid overcrowded tourist spots. Kotlin, Spring Boot 4, Next.js 16, PostGIS, GCP"/></a>
+  <a href="https://moyeorak.site/"><img src="./img/service-moyeorak.svg" width="49%" alt="Moyeorak (moyeorak.site): group schedule and meeting place coordination. Java 25, Spring Boot 4, PostGIS, React, Vite"/></a>
+</p>
+
+## 🛠️ &nbsp; **Open-source Templates**
 
 <p align="center">
   <a href="https://github.com/hyunolike/kotlin-spring-modulith-template"><img src="./img/featured-kotlin-spring-modulith-template.svg" width="49%" alt="kotlin-spring-modulith-template: module boundaries verified by tests and at startup"/></a>
