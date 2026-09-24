@@ -32,6 +32,13 @@
 - 📫 How to reach me: **hyunho.jang.dev@gmail.com**
 - ⚡ Fun fact: I love listening to music while coding.
 
+## 🛠️ &nbsp; **Featured Projects**
+
+<p align="center">
+  <a href="https://github.com/hyunolike/kotlin-spring-modulith-template"><img src="./img/featured-kotlin-spring-modulith-template.svg" width="49%" alt="kotlin-spring-modulith-template: module boundaries verified by tests and at startup"/></a>
+  <a href="https://github.com/hyunolike/nextjs-fsd-template"><img src="./img/featured-nextjs-fsd-template.svg" width="49%" alt="nextjs-fsd-template: Feature-Sliced Design enforced by the steiger linter in CI"/></a>
+</p>
+
 <!-- ## 📝 최근 블로그 글 -->
 
 [![최근 블로그 글](./recent-posts.svg)](https://hyunolike.tistory.com/)
