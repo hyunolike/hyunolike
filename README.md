@@ -39,6 +39,12 @@
   <a href="https://moyeorak.site/"><img src="./img/service-moyeorak.svg" width="49%" alt="Moyeorak (moyeorak.site): group schedule and meeting place coordination. Java 25, Spring Boot 4, PostGIS, React, Vite"/></a>
 </p>
 
+## 🏆 &nbsp; **Hackathons & Competitions**
+
+<p align="left">
+  <a href="https://github.com/hyunolike/reroute-irops-agent"><img src="./img/reroute-banner.jpg" width="49%" alt="ReRoute: AI for Airline Disruption Recovery. NVIDIA Korea Agentic AI Hackathon 2026, one of 10 teams selected for the finals"/></a>
+</p>
+
 ## 🛠️ &nbsp; **Open-source Templates**
 
 <p align="center">
