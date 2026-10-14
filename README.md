@@ -51,6 +51,7 @@
 <p align="center">
   <a href="https://github.com/hyunolike/kotlin-spring-modulith-template"><img src="./img/featured-kotlin-spring-modulith-template.svg" width="49%" alt="kotlin-spring-modulith-template: module boundaries verified by tests and at startup"/></a>
   <a href="https://github.com/hyunolike/nextjs-fsd-template"><img src="./img/featured-nextjs-fsd-template.svg" width="49%" alt="nextjs-fsd-template: Feature-Sliced Design enforced by the steiger linter in CI"/></a>
+  <a href="https://github.com/hyunolike/agent-starter-template"><img src="./img/featured-agent-starter-template.svg" width="49%" alt="agent-starter-template: from a tool-calling prototype to a testable, stateful service. Python, LangGraph, FastAPI"/></a>
 </p>
 
 <!-- ## 📝 최근 블로그 글 -->
