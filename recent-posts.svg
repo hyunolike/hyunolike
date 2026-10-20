@@ -28,9 +28,7 @@
   <text class="heading" x="50" y="30">최근 블로그 글</text>
   <line class="divider" x1="24" y1="42" x2="756" y2="42"/>
     <text class="marker" x="24" y="73">▶</text>
-    <rect class="new-badge" x="44" y="62" width="34" height="16" rx="8"/>
-    <text class="new-text" x="61" y="70" text-anchor="middle" dominant-baseline="central">NEW</text>
-    <text class="title" x="86" y="73">[WEB] 아이폰에서 멈춘 지도 애니메이션, 기종 문제가 아닌 코드…</text>
+    <text class="title" x="44" y="73">[WEB] 아이폰에서 멈춘 지도 애니메이션, 기종 문제가 아닌 코드 분기 문제였다</text>
     <text class="date" x="756" y="73" text-anchor="end">2026.10.20</text>
     <text class="marker" x="24" y="107">▶</text>
     <text class="title" x="44" y="107">[WEB] 이미지 버튼에서 여행 취향 팝업까지: 이벤트 위임으로 클릭 흐름 연결하기</text>
