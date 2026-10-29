@@ -36,7 +36,7 @@
 
 <p align="center">
   <a href="https://hanjeok.com/"><img src="./img/service-hanjeok.svg" width="49%" alt="Hanjeok (hanjeok.com): travel courses that avoid overcrowded tourist spots. Kotlin, Spring Boot 4, Next.js 16, PostGIS, GCP"/></a>
-  <a href="https://moyeorak.site/"><img src="./img/service-moyeorak.svg" width="49%" alt="Moyeorak (moyeorak.site): group schedule and meeting place coordination. Java 25, Spring Boot 4, PostGIS, React, Vite"/></a>
+  <a href="https://moyeorak.site/"><img src="./img/service-moyeorak.svg" width="49%" alt="Moyeorak (moyeorak.site): group schedule and meeting place coordination. Currently offline; a renewal is planned. Java 25, Spring Boot 4, PostGIS, React, Vite"/></a>
   <a href="https://new.5959.site/"><img src="./img/service-5959.svg" width="49%" alt="Ogu-ogu 5959 (new.5959.site): anonymous emotion-sharing community where AI turns worries into monsters. Kotlin, Spring Boot 4, Next.js 16, Spring AI"/></a>
 </p>
 
