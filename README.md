@@ -43,7 +43,8 @@
 ## 🏆 &nbsp; **Hackathons & Competitions**
 
 <p align="left">
-  <a href="https://github.com/hyunolike/reroute-irops-agent"><img src="./img/reroute-banner.jpg" width="49%" alt="ReRoute: AI for Airline Disruption Recovery. NVIDIA Korea Agentic AI Hackathon 2026, one of 10 teams selected for the finals"/></a>
+  <a href="https://github.com/hyunolike/reroute-irops-agent"><img src="./img/reroute-banner.jpg" width="400" alt="ReRoute: AI for Airline Disruption Recovery. NVIDIA Korea Agentic AI Hackathon 2026, one of 10 teams selected for the finals"/></a>
+  <a href="https://hanjeok.com/"><img src="./img/hanjeok-tourism-award-2026.png" width="400" alt="Hanjeok: Excellence Award, 2026 Tourism Data Contest (Web &amp; App Implementation)"/></a>
 </p>
 
 ## 🛠️ &nbsp; **Open-source Templates**
