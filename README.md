@@ -47,15 +47,15 @@
   <a href="https://hanjeok.com/"><img src="./img/hanjeok-tourism-award-2026.png" width="400" alt="Hanjeok: Excellence Award, 2026 Tourism Data Contest (Web &amp; App Implementation)"/></a>
 </p>
 
-### ReRoute — NVIDIA Korea Agentic AI Hackathon 2026 본선 10팀 선정
+### ReRoute: Top 10 Finalist, NVIDIA Korea Agentic AI Hackathon 2026
 
-결항 승객의 재배정을 돕는 에이전트를 구현했습니다. LLM은 다음 행동을 선택하고, 좌석 배정은 solver가 계산하며, 예약 변경은 운영자 승인 후 실행하도록 설계했습니다.
+I built an agent that rebooks passengers whose flights are canceled. The LLM picks the next action, a solver computes the seat assignments, and booking changes go through only after an operator approves them.
 
-선정팀 초청으로 NVIDIA AI Day Seoul 2026에 참석했습니다. 우승팀과 비교해 단일 데모 중심 평가의 한계를 짚고, 반례 기반 평가와 현업 검토를 후속 과제로 정리했습니다.
+As a finalist, I was invited to NVIDIA AI Day Seoul 2026. Comparing our work with the winning team showed me the limits of judging an agent on a single demo. My next steps are to evaluate it against counterexamples and to have airline operations staff review it.
 
-[프로젝트와 구현](https://github.com/hyunolike/reroute-irops-agent) | [AI Day 회고: 에이전트의 신뢰성을 어떻게 검증할 것인가](https://hyunolike.tistory.com/80)
+[Project & Implementation](https://github.com/hyunolike/reroute-irops-agent) | [AI Day Retrospective: How Do We Verify an Agent's Reliability?](https://hyunolike.tistory.com/80)
 
-**NVIDIA 인증:** [NVIDIA-Certified Associate: Generative AI LLMs](https://credential.nvidia.com/55b9ba48-8eff-49a2-b5c1-3a661d7e5ae9)
+**NVIDIA Certification:** [NVIDIA-Certified Associate: Generative AI LLMs](https://credential.nvidia.com/55b9ba48-8eff-49a2-b5c1-3a661d7e5ae9)
 
 ## 🛠️ &nbsp; **Open-source Templates**
 
