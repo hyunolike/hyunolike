@@ -28,18 +28,18 @@
   <text class="heading" x="50" y="30">최근 블로그 글</text>
   <line class="divider" x1="24" y1="42" x2="756" y2="42"/>
     <text class="marker" x="24" y="73">▶</text>
-    <text class="title" x="44" y="73">[프로젝트] Cloud Run이 잠든 동안 흰 화면 대신 로딩 화면을 띄웠다</text>
-    <text class="date" x="756" y="73" text-anchor="end">2026.11.08</text>
+    <text class="title" x="44" y="73">[AI][컨퍼런스 후기] NVIDIA AI Day Seoul 2026, 같은 원칙으로 만들었는데 왜 FlyGa…</text>
+    <text class="date" x="756" y="73" text-anchor="end">2026.11.11</text>
     <text class="marker" x="24" y="107">▶</text>
-    <text class="title" x="44" y="107">[AI] 질문하면 내 블로그 글로 답하는 챗봇을 만들었다</text>
-    <text class="date" x="756" y="107" text-anchor="end">2026.10.29</text>
+    <text class="title" x="44" y="107">[프로젝트] Cloud Run이 잠든 동안 흰 화면 대신 로딩 화면을 띄웠다</text>
+    <text class="date" x="756" y="107" text-anchor="end">2026.11.08</text>
     <text class="marker" x="24" y="141">▶</text>
-    <text class="title" x="44" y="141">[WEB] 아이폰에서 멈춘 지도 애니메이션, 기종 문제가 아닌 코드 분기 문제였다</text>
-    <text class="date" x="756" y="141" text-anchor="end">2026.10.20</text>
+    <text class="title" x="44" y="141">[AI] 질문하면 내 블로그 글로 답하는 챗봇을 만들었다</text>
+    <text class="date" x="756" y="141" text-anchor="end">2026.10.29</text>
     <text class="marker" x="24" y="175">▶</text>
-    <text class="title" x="44" y="175">[WEB] 이미지 버튼에서 여행 취향 팝업까지: 이벤트 위임으로 클릭 흐름 연결하기</text>
-    <text class="date" x="756" y="175" text-anchor="end">2026.10.06</text>
+    <text class="title" x="44" y="175">[WEB] 아이폰에서 멈춘 지도 애니메이션, 기종 문제가 아닌 코드 분기 문제였다</text>
+    <text class="date" x="756" y="175" text-anchor="end">2026.10.20</text>
     <text class="marker" x="24" y="209">▶</text>
-    <text class="title" x="44" y="209">[WEB] 모바일에서 PC 배너가 먼저 보이는 이유: JavaScript 이미지 교체를 반응형 로딩…</text>
-    <text class="date" x="756" y="209" text-anchor="end">2026.10.01</text>
+    <text class="title" x="44" y="209">[WEB] 이미지 버튼에서 여행 취향 팝업까지: 이벤트 위임으로 클릭 흐름 연결하기</text>
+    <text class="date" x="756" y="209" text-anchor="end">2026.10.06</text>
 </svg>
