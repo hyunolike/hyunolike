@@ -71,7 +71,7 @@ As a finalist, I was invited to NVIDIA AI Day Seoul 2026. Comparing our work wit
 
 <p align="center">
   <a href="https://pixel-visitor-village.pages.dev/#demo">
-    <img src="https://raw.githubusercontent.com/hyunolike/pixel-visitor-village/cf47d0c7b4a97b957ba660dd0623ccad33382bb6/docs/assets/intro-preview.gif" width="800" alt="Pixel Visitor Village: an animated pixel village for your Tistory daily visitor count. Click to explore the demo." />
+    <img src="./img/pixel-visitor-village-banner.gif" width="800" alt="Pixel Visitor Village: an animated pixel village for your Tistory daily visitor count. Click to explore the demo." />
   </a>
 </p>
 <p align="center">
